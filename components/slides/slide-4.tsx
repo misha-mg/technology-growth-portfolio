@@ -52,10 +52,10 @@ export default function Slide4({ isActive }: SlideProps) {
           фундамент + тактика
         </h2>
 
-        <motion.div className="grid grid-cols-2 gap-4 auto-rows-min items-start" variants={itemVariants}>
+        <motion.div className="grid grid-cols-2 gap-x-4 gap-y-6 auto-rows-min items-start" variants={itemVariants}>
           <div className="row-span-2 col-span-1">
             <h3 className="text-2xl font-semibold text-white mb-4">KPI ежедневного мониторинга</h3>
-            <ul className="space-y-2 text-[18px] text-white/70 mb-4">
+            <ul className="space-y-2 text-[16px] text-white/70 mb-4">
               <li className="flex items-start">
                 <span className="w-2 h-2 mt-2 mr-3 rounded-full bg-[#f99c00] flex-shrink-0"></span>
                 Динамика лидеров AI-цепочки (semis, cloud)
@@ -81,7 +81,7 @@ export default function Slide4({ isActive }: SlideProps) {
 
           <div className="row-span-1 col-span-1">
             <h3 className="text-2xl font-semibold text-white mb-4">Фундаментальный тезис</h3>
-            <ul className="space-y-3 text-[18px] text-white/70">
+            <ul className="space-y-3 text-[16px] text-white/70">
               <li className="flex items-start">
                 <span className="w-2 h-2 mt-2 mr-3 rounded-full bg-[#f99c00] flex-shrink-0"></span>
                 AI-инфраструктура и облако формируют ядро текущего технологического цикла
@@ -110,7 +110,7 @@ export default function Slide4({ isActive }: SlideProps) {
           <div className="row-span-1 col-span-2">
             <h3 className="text-2xl font-semibold text-white mb-4 line-height-1">Тактическое управление <br />
               <span className="text-xl">(30–45 дней)</span></h3>
-            <ul className="space-y-3 text-[18px] text-white/70">
+            <ul className="space-y-3 text-[16px] text-white/70">
               <li className="flex items-start">
                 <span className="w-2 h-2 mt-2 mr-3 rounded-full bg-[#f99c00] flex-shrink-0"></span>
                 Вход и добавления при подтверждении тренда и достаточной ликвидности
