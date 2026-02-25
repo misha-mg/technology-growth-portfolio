@@ -9,7 +9,7 @@ const inter = Inter({
   variable: "--font-inter",
 })
 export const metadata: Metadata = {
-  title: "v0 App",
+  title: "AI & Technology Growth Portfolio",
   description: "Created with v0",
   generator: "v0.dev",
 }
